@@ -1,2 +1,8 @@
 Bridetobe is the first version of dolidiaries
 
+Steps to see the prototype:
+1. download bootstrap
+2. download booklet
+
+put the index.html file and bootstrap under the booklet source folder.
+
