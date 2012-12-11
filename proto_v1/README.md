@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # jQuery Booklet Plugin
 
 Booklet is a jQuery tool for displaying content on the web in a flipbook layout. 
@@ -146,7 +145,3 @@ If more customization is desired, all generated classes are visible in the curre
 	        ...
 	    </div>
 	</div>
-=======
-Bridetobe is the first version of dolidiaries
-
->>>>>>> 7e32aa672db5a5a7f0963fe93f09e226922e0229

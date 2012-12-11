@@ -5,52 +5,6 @@ and open the template in the editor.
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="bootstrap/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" media ="screen"/>       
-        <link href="testcss.css" type="text/css" rel="stylesheet" media ="screen"/>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-        <script src="bootstrap/bootstrap/js/bootstrap.js" type="text/javascript"></script>
- 
-    </head>
-    <body>
-        <div class="masthead">
-                <ul class="nav nav-pills pull-right">
-                    <li class="divider-vertical"></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
-                        <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
-                        <!-- Login form here -->
-                            <form action="" method="post" accept-charset="UTF-8">
-                                <input id="user_username" style="margin-bottom: 15px;" type="text" name="user[username]" size="30" />
-                                <input id="user_password" style="margin-bottom: 15px;" type="password" name="user[password]" size="30" />
-                                <input id="user_remember_me" style="float: left; margin-right: 10px;" type="checkbox" name="user[remember_me]" value="1" />
-                                <label class="string optional" for="user_remember_me"> Remember me</label>
-                        
-                                <input class="btn btn-primary" style="clear: left; width: 100%; height: 32px; font-size: 13px;" type="submit" name="commit" value="Sign In" />
-                            </form>
-                        </div>
-                    </li>
-                    <li><a href="/users/sign_up">Sign Up</a></li>
-                    <li><a href="dolibook.html">About Doli</a></li>
-                </ul>
-                <h3 class="header">Welcome to Doli Diaries</h3>
-        </div>
-        <hr>
-        <div class="night-sky">
-            <h1 class="fontface"> Your perfect wedding <br> starts here </h1>
-        </div>
-        <hr>
-        <footer>
-            <p>&copy; DoliDiaries 2012</p>
-        </footer>
-        
-        <script type="text/javascript">
-            $('.dropdown-menu input, .dropdown-menu label').click(function(e) {
-                e.stopPropagation();
-            });
-        </script>
-=======
         <title>Doli diary, your personal wedding diary</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script src="jquery-1.7.2.min.js" type="text/javascript"></script>
@@ -59,16 +13,8 @@ and open the template in the editor.
         <script src="jquery.booklet.latest.min.js" type="text/javascript"></script>
         <link href="jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
         <link href="bootstrap/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" media ="screen"/>
-        <!-- Le styles -->
-        <style type="text/css">
-        body {
-            padding-top: 60px;
-            padding-bottom: 40px;
-        }
-        .sidebar-nav {
-            padding: 9px 0;
-        }
-        </style>
+        <link href="testcss.css" type="text/css" rel="stylesheet" media ="screen"/>
+        
         <script type="text/javascript">
             $(function() {
                 $('#mybook').booklet(
@@ -90,11 +36,11 @@ and open the template in the editor.
         <div class="container-narrow">
             <div class="masthead">
                 <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Welcome to Doli</a></li>
+                    <li><a href="index.html">Doli Home</a></li>
                     <li><a href="#">About Doli</a></li>
                     <li><a href="#">Sign in</a></li>
                 </ul>
-                <h3 class="muted">Doli Diaries</h3>
+                <h3 class="header">Welcome to Doli Diaries</h3>
             </div>
             <hr>
             <div class="booklet" id="mybook" >
@@ -130,6 +76,5 @@ and open the template in the editor.
       </footer>
 
         </div>
->>>>>>> 7e32aa672db5a5a7f0963fe93f09e226922e0229
     </body>
 </html>
